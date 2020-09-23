@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "Roboto"; 
+    src: url("Roboto-Bold.ttf") format("truetype"); 
+    font-style: bold; 
+    font-weight: 700; 
+} 
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400; 
+} 
+
+header {
+    position: absolute;
+    z-index: 100;
+    left: 500px;
+}
+.MainClass{
+    width: 1600px;
+    position: relative; 
+    left: 50%;
+    margin-left: -800px;
+}   
+
+ nav button {
+    color: #F5F6F7;
+    opacity: 0.9;
+    background: none;
+    padding: 0;
+    border: none;
+    background: none;
+    font-style: normal;
+}
+
+header nav button:first-child {
+    margin-right: 85px;
+}
+
+header nav button:last-child {
+    margin-left: 85px;
+}
+
+    nav button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+}
+
+header nav img {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 22px;
+}
+.primaryButton {
+    background: #00AFDB;
+    text-transform: uppercase;
+    padding: 15px 47px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.primaryButton:hover{   
+    background: #009CC2;
+    cursor: pointer;
+}
+
+
+.YourLife {
+    background-image: url("img/bg-image.png");
+    height: 744px;
+    position: relative;
+}
+
+.YourLife button {
+    position: absolute;
+    left: calc(50% - 184px/2);
+    top: calc(50% - 46px/2 + 56px);
+}
+
+.YourLife .Social {
+    position: absolute;
+    left: calc(50% - 170px/2);
+    bottom: 90px;
+}
+
+.YourLife .Social img{
+    margin-right: 30px;
+    color: #F5F6F7;
+    opacity: 0.9;
+}
+
+.YourLife .Social img:hover{
+    margin-right: 30px;
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+}
+
+
+.Rappresent {
+    height: 842px;
+    position: relative;
+}
+
+.Rappresent p {
+    color: #4E4E4E;
+}
+
+.Rappresent  img {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 924px;
+    top: 121px;
+}
+
+.Rappresent h2 {
+    text-transform: uppercase;      
+    width: 367px;
+    height: 57px;
+}
+
+.Rappresent .RappDescription {
+    position: absolute;
+    width: 407px;
+    height: 233px;
+    left: 269px;
+    top: 276px;
+}
+.OurCommunity {
+    height: 504px;
+    width: 1600px;
+    background-color: #F5F6F7;
+    position: relative;
+}
+
+.OurCommunity p {
+    color: #4E4E4E;
+}
+
+.OurCommunityDescription {
+    position: absolute;
+    width: 298px;
+    height: 175px;
+    left: 269px;
+    top: 155px;
+}
+.OurCommunityDescription p{
+    height: 80px;
+    top: 95px;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #4E4E4E;
+}
+
+.OurCommunityDescription img{
+    margin-left: 127px;
+}
+
+.OurCommunityDescription h3{
+    top: 65px;
+    margin-left: 69px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+
+.Slider {
+    position: absolute;
+    left: 706px;
+    top: 120px;
+}
+
+.SliderItems{
+    display: inline-block;
+    z-index: 100;
+    position: absolute;
+    right: 269px;
+    top: 82px;
+}
+
+.Implement{
+    height: 842px;
+    position: relative;
+}
+
+.Implement p {
+    color: #4E4E4E;
+    width: 407px;
+    height: 60px;
+}
+
+.Implement img {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+}
+
+.Implement .ImplementDescription {
+    position: absolute;
+    width: 407px;
+    height: 233px;
+    left: 816px;
+    top: 299px;
+}
+
+.Implement h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.SignUp {
+    position: relative;
+    height: 524px;
+}
+
+.SignUpBackground {
+    position: absolute;
+    width: 1600px;
+    height: 524px;
+}
+
+.SignUp .SignUpBlock {
+    position: absolute;
+    left: 609px;
+    top: 181px
+}
+
+.SignUp h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.SignUp input {
+    width: 340px;
+    height: 46px;
+    display: inline-block;
+}
+
+.SignUpBlockInputContainer {
+    position: relative;
+}
+
+.SignUpBlockInputContainer input {
+    padding-left: 24px;
+    outline: none;
+}
+
+.SignUpBlockInputBlueBlock {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.SignUpBlockInputArrow {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: 50%;
+    margin-top: -7px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.Download {
+    position: relative;
+    height: 464px;
+}
+
+.Download h2 {
+    position: absolute;
+    left: 675px;
+    top: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Download p {
+    position: absolute;
+    left: 560px;
+    top: 155px;
+    width: 480px;
+    height: 40px;
+    color: #4E4E4E;
+    text-align: center;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.Download button {
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Download button:hover{
+    cursor: pointer;
+    background: #009CC2;
+}
+
+.Download .AppleStore {
+    position: absolute;
+    left: 599px;
+    top: 238px;
+    cursor: pointer;
+}
+
+.Download .AppleStore .SocialIcon {
+    top: 50%;
+    margin-top: -10px;
+    right: -36.5px;
+    height: 20px;
+    width: 17px;
+}
+
+.Download img {
+    position: absolute;
+}
+
+.Download .PlayMarket {
+    position: absolute;
+    left: 815px;
+    top: 238px;
+    cursor: pointer;
+}
+
+.Download .PlayMarket .SocialIcon {
+    width: 20px;
+    height: 23px;
+    right: -38.5px;
+    top: 50%;
+    margin-top: -11.5px;
+}
+
+footer {
+    position: relative;
+    height: 185px;
+    background-color: black;
+}
+
+footer nav{
+    position: absolute;
+    left: 160px;
+    top: 74px;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+footer nav button {
+    margin-right: 40px;
+}
+
+footer img {
+    position: absolute;
+    left: 778px;
+    top: 60px;
+}
+
+footer .By {
+    position: absolute;
+    left: 1270px;
+    bottom: 78px;
+    text-align: center;
+    color: #818181;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+
+body {
+    font-family: Roboto;
+    margin: 0px;    
+}
+h1{
+    position: absolute;
+    left: calc(50% - 730px/2);
+    top: 187px;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.whatever{
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    left: calc(50% - 504px/2);
+    top: 307px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
